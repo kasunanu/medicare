@@ -1,0 +1,10 @@
+@use 'colors' as *;
+
+//font styles
+
+@mixin heading_style{
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  color: $dark;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,13 @@
+@use 'custom';
+
+//import pages
+
+@use 'pages/home/home.scss';
+
+//import components
+
+@use 'components/buttons';
+@use 'components/colors';
+@use 'components/mixing';
+@use 'components/typography';
+@use 'components/animations';
