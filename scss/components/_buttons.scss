@@ -1,0 +1,12 @@
+@use '../components/colors' as *;
+
+// btn border radius, width, font sizes and padding change in _custome.scss
+
+.btn-light{
+  color: white;
+
+  &:hover{
+    background-color: $dark;
+    color: $light;
+  }
+}

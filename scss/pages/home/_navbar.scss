@@ -1,0 +1,24 @@
+@use '../../components/colors' as *;
+
+// navbar light active color, link padding, toggler border radius change in _custom.scss
+
+.navbar{
+  background-color: white;
+  padding: 0;
+
+  .navbar-nav{
+    a{
+      font-size: 12px;
+      font-weight: bold;
+      color: $secondary;
+
+      &:hover, :active{
+        color: $dark;
+      }
+    }
+
+    .dropdown-item:active{
+      background-color: $light;
+    }
+  }
+}

@@ -14,4 +14,17 @@ $theme-colors: (
   "dark":       $dark
 );
 
+// navbar
+
+$navbar-light-active-color: $dark;
+$navbar-nav-link-padding-x: 12px;
+$navbar-toggler-border-radius: 10px;
+
+// button
+$btn-font-size:     12px;
+$btn-border-radius: 20px;
+$btn-border-width:  0px;
+$btn-padding-y:     10px;
+$btn-padding-x:     15px;
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
