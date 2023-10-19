@@ -1,3 +1,19 @@
-
+.topnav_bar {
+  background-color: #0E204D;
+  padding: 8px;
+}
+.topnav_bar p {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.topnav_bar p i {
+  color: #21CDC0;
+  padding: 3px;
+}
+.topnav_bar p i:hover {
+  color: white;
+}
 
 /*# sourceMappingURL=home.css.map */
