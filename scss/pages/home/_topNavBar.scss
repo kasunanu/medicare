@@ -3,6 +3,8 @@
 .topnav_bar{
   background-color: $dark;
   padding: 8px;
+  z-index: 999;
+  position: relative;
 
   p{
     color: white;
