@@ -1,0 +1,21 @@
+.swiper {
+  width: 100%;
+  height: 100vh;
+  margin-top: -101px;
+
+  .slide{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .sliderText{
+      position: absolute;
+      bottom: 50px;
+    }
+  }
+  
+  .swiper-pagination{
+    left: 90% !important;
+  }
+}
+

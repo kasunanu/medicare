@@ -16,6 +16,11 @@
   <!-- fontawesome -->
   <link rel="stylesheet" href="assets/fontawesome/css/all.css">
 
+  <!-- swipper -->
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
   <!-- page title -->
   <title>medicare</title>
   
@@ -23,7 +28,6 @@
 
 <body>
   
-  <!-- carousel -->
   <!-- topnavbar -->
     <section class="topnav_bar">
       <div class="container-fluid">
@@ -31,7 +35,7 @@
           <div class="row">
 
             <!-- topNavLeft -->
-            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0 topNavLeft">
               <p>Follow Us On : 
                 <!-- fb -->
                 <a href="#">
@@ -53,7 +57,7 @@
             </div>
 
             <!-- topNavRight -->
-            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-0 topNavRight">
               <div class="row text-end">
                 <!-- phone number -->
                 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 p-0">
@@ -77,6 +81,7 @@
       </div>
     </section>
   <!-- topnavbar end -->
+
   <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
       <div class="container p-0">
@@ -134,9 +139,10 @@
 
           <span class="pb-1 pe-3 text-dark">|</span>
 
+          <!-- navBtn -->
           <a href="#">
-            <button type="button" class="btn btn-light">
-              <i class="fa-regular fa-calendar pe-1"></i>
+            <button type="button" class="btn btn-light px-3">
+              <i class="fa-regular fa-calendar pe-1" style="animation: none"></i>
               Appointment
             </button>
           </a>
@@ -144,8 +150,104 @@
       </div>
     </nav>
   <!-- navbar end -->
+
+  <!-- carousel -->
+    <div class="swiper carousel">
+      <div class="swiper-wrapper">
+        
+        <!-- Slide1 -->
+        <div class="swiper-slide slide" style="background-image: url(assets/img/slider.jpg);">
+          <div class="container">
+            <div class="sliderText col-6">
+              <h1>Providing Best Medical Care</h1>
+              <p class="text-dark">Delivering cutting-edge medical treatments and compassionate care,
+                <br> ensuring your health is in the best hands.</p>
+                
+              <!-- sliderBtn -->
+
+              <div class="sliderBtn">
+                <a href="#">
+                  <button type="button" class="btn btn-light mt-3">
+                    <i class="fa-regular fa-circle-play pe-1" style="animation: none"></i>
+                    Watch Our Video
+                  </button>
+                </a>
+
+                <a href="#">
+                  <button type="button" class="btn btn-light mt-3 ms-2">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right ps-1 rightArrow"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide2 -->
+        <div class="swiper-slide slide" style="background-image: url(assets/img/slider2.jpg);">
+          <div class="container">
+            <div class="sliderText col-6">
+              <h1>Providing Best Medical Care</h1>
+              <p class="text-dark">Delivering cutting-edge medical treatments and compassionate care,
+                <br> ensuring your health is in the best hands.</p>
+                
+              <!-- sliderBtn -->
+
+              <div class="sliderBtn">
+                <a href="#">
+                  <button type="button" class="btn btn-light mt-3">
+                    <i class="fa-regular fa-circle-play pe-1" style="animation: none"></i>
+                    Watch Our Video
+                  </button>
+                </a>
+
+                <a href="#">
+                  <button type="button" class="btn btn-light mt-3 ms-2">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right ps-1 rightArrow"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide3 -->
+        <div class="swiper-slide slide" style="background-image: url(assets/img/slider3.jpg);">
+          <div class="container">
+            <div class="sliderText col-6">
+              <h1>Providing Best Medical Care</h1>
+              <p class="text-dark">Delivering cutting-edge medical treatments and compassionate care,
+                <br> ensuring your health is in the best hands.</p>
+                
+              <!-- sliderBtn -->
+
+              <div class="sliderBtn">
+                <a href="#">
+                  <button type="button" class="btn btn-light mt-3">
+                    <i class="fa-regular fa-circle-play pe-1" style="animation: none"></i>
+                    Watch Our Video
+                  </button>
+                </a>
+
+                <a href="#">
+                  <button type="button" class="btn btn-light mt-3 ms-2">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right ps-1 rightArrow"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
   <!-- carousel end -->
-  
+
 
 
 
@@ -154,6 +256,28 @@
 
   <!-- jquary -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- swipper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+
+        // If we need pagination
+        pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+        },
+
+      });
+  </script>
 
 </body>
 </html>
