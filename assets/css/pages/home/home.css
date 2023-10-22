@@ -1,6 +1,7 @@
 .navbar {
   background-color: white;
   padding: 0;
+  z-index: 999;
 }
 .navbar .navbar-nav a {
   font-size: 12px;
@@ -17,6 +18,8 @@
 .topnav_bar {
   background-color: #0E204D;
   padding: 8px;
+  z-index: 999;
+  position: relative;
 }
 .topnav_bar p {
   color: white;
@@ -30,6 +33,24 @@
 }
 .topnav_bar p i:hover {
   color: white;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+  margin-top: -101px;
+}
+.swiper .slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.swiper .slide .sliderText {
+  position: absolute;
+  bottom: 50px;
+}
+.swiper .swiper-pagination {
+  left: 90% !important;
 }
 
 /*# sourceMappingURL=home.css.map */
