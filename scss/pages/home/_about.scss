@@ -1,0 +1,41 @@
+@use '../../components/colors' as *;
+
+.aboutSection{
+  margin-top: 50px;
+
+  // left
+  .aboutImg{
+    height: 520px;
+    background-image: url(../../../assets/img/aboutImg1.png), url(../../../assets/img/aboutImg2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, right bottom;
+    // background-size: 383px 418px;
+    position: relative;
+
+    .playBtn{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+  
+      .btn{
+        color: white;
+        font-weight: bold;
+        &:hover{
+          color: $dark;
+        }
+      }
+  }
+  }
+
+  // right
+  .aboutContent{
+    .heading{
+      margin-left: -70px;
+    }
+
+    p{
+      padding-top: 10px;
+      text-align: justify;
+    }
+  }
+}

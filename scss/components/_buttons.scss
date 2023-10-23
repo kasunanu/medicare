@@ -11,3 +11,16 @@
     border: none;
   }
 }
+
+.btn-dark{
+  color: white;
+
+  i{
+    color: $light;
+  }
+
+  &:hover{
+    background-color: $primary;
+    border: none;
+  }
+}

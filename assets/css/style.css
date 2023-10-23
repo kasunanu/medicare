@@ -11581,12 +11581,53 @@ textarea.form-control-lg {
   background-position: bottom left;
 }
 
+.aboutSection {
+  margin-top: 50px;
+}
+.aboutSection .aboutImg {
+  height: 520px;
+  background-image: url(../../../assets/img/aboutImg1.png), url(../../../assets/img/aboutImg2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, right bottom;
+  position: relative;
+}
+.aboutSection .aboutImg .playBtn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.aboutSection .aboutImg .playBtn .btn {
+  color: white;
+  font-weight: bold;
+}
+.aboutSection .aboutImg .playBtn .btn:hover {
+  color: #0E204D;
+}
+.aboutSection .aboutContent .heading {
+  margin-left: -70px;
+}
+.aboutSection .aboutContent p {
+  padding-top: 10px;
+  text-align: justify;
+}
+
 .btn-light {
   color: white;
 }
 .btn-light:hover {
   background-color: #0E204D;
   color: #21CDC0;
+  border: none;
+}
+
+.btn-dark {
+  color: white;
+}
+.btn-dark i {
+  color: #21CDC0;
+}
+.btn-dark:hover {
+  background-color: #2D4990;
   border: none;
 }
 
@@ -11674,6 +11715,13 @@ a {
   100% {
     transform: translate(0, 0);
   }
+}
+.points p {
+  padding-top: 15px;
+}
+.points p i {
+  color: #21CDC0;
+  padding-right: 8px;
 }
 
 /*# sourceMappingURL=style.css.map */

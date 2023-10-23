@@ -1,0 +1,11 @@
+@use 'colors' as *;
+
+.points{
+  p{
+    padding-top: 15px; 
+    i{
+      color: $light;
+      padding-right: 8px;
+    }
+  }
+}
