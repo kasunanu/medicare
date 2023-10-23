@@ -1,0 +1,45 @@
+@use '../../components/colors' as *;
+
+.clinicsSection{
+  background-image: url(../../../assets/img/fadeDarkBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h3{
+    color: white;
+  }
+
+  p{
+    color: white;
+  }
+
+  .darkBox{
+    background-color: $primary;
+  }
+
+  .lightBox{
+    background-color: $light;
+  }
+
+  .box{
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 5px;
+    margin-top: 20px;
+
+    h6{
+      color: white;
+      padding-top: 12px;
+      margin: 0;
+    }
+
+    &:hover{
+      background-color: $dark;
+
+      h6{
+        color: $light;
+      }
+    }
+  }
+}
