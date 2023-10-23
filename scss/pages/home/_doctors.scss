@@ -1,0 +1,40 @@
+@use '../../components/colors' as *;
+
+.doctorsSection{
+  .doctors{
+    .item{
+      background-color: rgba($color: $light, $alpha: 0.1);
+      border-radius: 10px;
+      .text{
+        padding: 20px;
+        h6{
+          margin: 0;
+        }
+        .clinic{
+          color: $light;
+          font-style: italic;
+          padding-bottom: 10px;
+        }
+      }
+      .socialIcon{
+        i{
+          color: white;
+          padding: 8px;
+          border-radius: 5px;
+          transition: 0.2s linear;
+          
+          &:hover{
+            background-color: $dark;
+            border-radius: 20px;
+          }
+        }
+        .darkIcon{
+          background-color: $primary;
+        }
+        .lightIcon{
+          background-color: $light;
+        }
+      }
+    }
+  }
+}
