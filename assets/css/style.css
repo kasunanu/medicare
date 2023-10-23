@@ -11647,6 +11647,32 @@ textarea.form-control-lg {
   color: #21CDC0;
 }
 
+.servicesSection {
+  background-image: url(../../../assets/img/lightBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.servicesSection .serviceLeft {
+  background-image: url(../../../assets/img/service/serviceImg.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.servicesSection .serviceRight .box {
+  background-color: white;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.servicesSection .serviceRight .box .boxImg {
+  background-color: #0E204D;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+.servicesSection .serviceRight .box .boxText {
+  padding: 20px;
+}
+
 .btn-light {
   color: white;
 }
@@ -11754,7 +11780,8 @@ a {
   }
 }
 .points p {
-  padding-top: 15px;
+  padding-top: 5px;
+  font-weight: bold;
 }
 .points p i {
   color: #21CDC0;

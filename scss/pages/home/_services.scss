@@ -1,0 +1,32 @@
+@use '../../components/colors' as *;
+
+.servicesSection{
+  background-image: url(../../../assets/img/lightBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .serviceLeft{
+    background-image: url(../../../assets/img/service/serviceImg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+
+  .serviceRight{
+    .box{
+      background-color: white;
+      border-radius: 10px;
+      background-repeat: no-repeat;
+      background-position: right bottom;
+
+      .boxImg{
+        background-color: $dark;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+      }
+      .boxText{
+        padding: 20px;
+      }
+    }
+  }
+}
