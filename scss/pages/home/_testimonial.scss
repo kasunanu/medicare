@@ -1,0 +1,28 @@
+@use '../../components/colors' as *;
+@use '../../components/mixing' as *;
+
+.testimonial{
+  @include lightBg;
+
+  .box{
+    background-color: $dark;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 30px;
+    background-image: url(../../../assets/img/testi.png);
+    background-repeat: no-repeat;
+    background-position: right 20px bottom;
+
+    p{
+      color: white;
+    }
+
+    .name{
+      color: $light;
+    }
+
+    i{
+      color: white;
+    }
+  }
+}

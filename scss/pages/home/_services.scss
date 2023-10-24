@@ -1,9 +1,8 @@
 @use '../../components/colors' as *;
+@use '../../components/mixing' as *;
 
 .servicesSection{
-  background-image: url(../../../assets/img/lightBg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  @include lightBg;
 
   .serviceLeft{
     background-image: url(../../../assets/img/service/serviceImg.png);

@@ -1,0 +1,19 @@
+@use '../../components/colors' as *;
+
+.offer{
+  background-color: $dark;
+  padding: 20px 0;
+
+  p{
+    color: $light;
+  }
+  h3{
+    color: white;
+  }
+
+  .form-control{
+    border-radius: 20px;
+    font-size: 12px;
+    border: none;
+  }
+}

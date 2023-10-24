@@ -9,3 +9,10 @@
   letter-spacing: 1px;
 }
 
+// backgrounds
+
+@mixin lightBg{
+  background-image: url(../../../assets/img/lightBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
