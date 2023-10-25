@@ -29,4 +29,8 @@
   .carousel-indicators{
     margin-bottom: -40px;
   }
+
+  .carousel-indicators [data-bs-target] {
+      background-color: $dark;
+    }
 }

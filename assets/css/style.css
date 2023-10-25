@@ -11786,6 +11786,9 @@ textarea.form-control-lg {
 .testimonial .carousel-indicators {
   margin-bottom: -40px;
 }
+.testimonial .carousel-indicators [data-bs-target] {
+  background-color: #0E204D;
+}
 
 .lastSections .appointment {
   padding: 20px;
