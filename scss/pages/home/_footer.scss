@@ -1,0 +1,56 @@
+@use '../../components/colors' as *;
+
+.footer{
+  .logo{
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .icon{
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px 3px;
+    &:hover{
+      border-radius: 50px;
+    }
+  }
+
+  .darkIcon{
+    background-color: $primary;
+    &:hover{
+      background-color: $light;
+      color: $dark;
+    }
+  }
+
+  .lightIcon{
+    background-color: $light;
+    &:hover{
+      background-color: $primary;
+      color: $light;
+    }
+  }
+
+  .links{
+    p{
+      color: white;
+      padding-top: 8px;
+
+      i{
+        color: $light;
+        padding-right: 8px;
+      }
+
+      &:hover{
+        color: $light;
+
+        i{
+          color: white;
+        }
+      }
+    }
+  }
+}

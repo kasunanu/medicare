@@ -11844,6 +11844,50 @@ textarea.form-control-lg {
   color: white;
 }
 
+.footer .logo {
+  text-align: center;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.footer .icon {
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 10px 3px;
+}
+.footer .icon:hover {
+  border-radius: 50px;
+}
+.footer .darkIcon {
+  background-color: #2D4990;
+}
+.footer .darkIcon:hover {
+  background-color: #21CDC0;
+  color: #0E204D;
+}
+.footer .lightIcon {
+  background-color: #21CDC0;
+}
+.footer .lightIcon:hover {
+  background-color: #2D4990;
+  color: #21CDC0;
+}
+.footer .links p {
+  color: white;
+  padding-top: 8px;
+}
+.footer .links p i {
+  color: #21CDC0;
+  padding-right: 8px;
+}
+.footer .links p:hover {
+  color: #21CDC0;
+}
+.footer .links p:hover i {
+  color: white;
+}
+
 .btn-light {
   color: white;
 }
