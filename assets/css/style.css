@@ -11516,21 +11516,21 @@ textarea.form-control-lg {
   color: white;
 }
 
-.carousel {
+.swiper {
   width: 100%;
   height: 100vh;
   margin-top: -101px;
 }
-.carousel .slide {
+.swiper .slide {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.carousel .slide .sliderText {
+.swiper .slide .sliderText {
   position: absolute;
   bottom: 70px;
 }
-.carousel .swiper-pagination {
+.swiper .swiper-pagination {
   left: 90% !important;
 }
 
@@ -11781,6 +11781,63 @@ textarea.form-control-lg {
   color: #21CDC0;
 }
 .testimonial .box i {
+  color: white;
+}
+.testimonial .carousel-indicators {
+  margin-bottom: -40px;
+}
+
+.lastSections .appointment {
+  padding: 20px;
+  border-radius: 10px;
+}
+.lastSections .appointment .form {
+  padding: 20px 0;
+}
+.lastSections .appointment .form .input-group {
+  margin-top: 15px;
+}
+.lastSections .appointment .form .input-group .input-group-text {
+  background-color: white;
+  border-right: none;
+  border-radius: 20px;
+  color: #21CDC0;
+  font-size: 12px;
+  padding-left: 20px;
+  border-color: #2D4990;
+}
+.lastSections .appointment .form .input-group .form-control {
+  border-left: 0px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #0E204D;
+  padding-left: 0;
+  border-color: #2D4990;
+  padding: 10px 0px;
+}
+.lastSections .appointment .form .input-group .form-control:focus {
+  box-shadow: none;
+}
+.lastSections .appointment .form .form-select {
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 13px;
+  color: rgba(14, 32, 77, 0.8);
+  border-color: #2D4990;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+.lastSections .badgesBox {
+  border-radius: 10px;
+}
+.lastSections .helpBox {
+  background-image: url(../../../assets/img/box3.png);
+  background-repeat: no-repeat;
+  background-position: right 20px bottom 20px;
+  background-size: 110px;
+  border-radius: 10px;
+}
+.lastSections .helpBox p {
   color: white;
 }
 

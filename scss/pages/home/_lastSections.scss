@@ -1,0 +1,62 @@
+@use '../../components/colors' as *;
+
+.lastSections{
+  .appointment{
+    padding: 20px;
+    border-radius: 10px;
+    .form{
+      padding: 20px 0;
+      .input-group{
+        margin-top: 15px;
+        
+        .input-group-text{
+          background-color: white;
+          border-right: none;
+          border-radius: 20px;
+          color: $light;
+          font-size: 12px;
+          padding-left: 20px;
+          border-color: $primary;
+        }
+        .form-control{
+          border-left: 0px;
+          border-radius: 20px; 
+          font-size: 13px;
+          color: $dark;
+          padding-left: 0;
+          border-color: $primary;
+          padding: 10px 0px;
+
+          &:focus{
+            box-shadow: none;
+          }
+        }
+      }
+
+      .form-select{
+        border-radius: 25px;
+        padding: 10px;
+        font-size: 13px;
+        color: rgba($color: $dark, $alpha: 0.8);
+        border-color: $primary;
+        margin-top: 15px;
+        padding-left: 20px;
+      }
+    }
+  }
+  .badgesBox{
+    border-radius: 10px;
+  }
+
+  .helpBox{
+    background-image: url(../../../assets/img/box3.png);
+    background-repeat: no-repeat;
+    background-position: right 20px bottom 20px;
+    background-size: 110px;
+    border-radius: 10px;
+
+    p{
+      color: white;
+    }
+  }
+}

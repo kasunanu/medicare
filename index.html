@@ -154,7 +154,7 @@
   <!-- navbar end -->
 
   <!-- carousel -->
-    <div class="swiper carousel">
+    <div class="swiper">
       <div class="swiper-wrapper">
         
         <!-- Slide1 -->
@@ -872,9 +872,9 @@
 
         <div class="testimonialCarousel">
           <div class="offset-xxl-1 col-xxl-10 offset-xl-1 col-xl-10 offset-lg-1 col-lg-10 col-md-12 col-sm-12 col-12">
-            <div id="carouselExampleIndicators" class="slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
-              <div class="carousel-indicators">
+              <div class="carousel-indicators ">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -1012,14 +1012,14 @@
                 </div>
                 
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              </button> -->
+              <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-              </button>
+              </button> -->
             </div>
           </div>
           
@@ -1027,6 +1027,128 @@
       </div>
     </section>
   <!-- testimonial end -->
+
+  <!-- last sections -->
+    <section class="lastSections my-5">
+      <div class="container">
+        <div class="row">
+          <!-- left -->
+          <div class="col-xx-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+            <div class="appointment shadow">
+              <div class="heading">
+                <h3>Book An Appointment</h3>
+                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequa.</p>
+              </div>
+
+              <!-- form -->
+              <div class="form">
+                <div class="col-xx-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="input-group">
+                    <div class="input-group-text"><i class="fa-regular fa-user"></i></div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Name">
+                  </div>
+                </div>  
+
+                <div class="col-xx-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="row">
+                    <div class="col-xx-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="fa-regular fa-envelope"></i></i></div>
+                        <input type="email" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="col-xx-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="fa-solid fa-phone"></i></i></div>
+                        <input type="tel" class="form-control" id="inlineFormInputGroupUsername" placeholder="Phone Number">
+                      </div>
+                    </div>
+                  </div>
+                </div>      
+
+                <div class="col-xx-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="row">
+                    <div class="col-xx-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Pathology clinic</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                    <div class="col-xx-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Doctor</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>   
+                
+                <div class="col-xx-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="row">
+                    <div class="col-xx-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                      <div class="input-group">
+                        <input type="date" class="form-control px-3 date" id="inlineFormInputGroupUsername" placeholder="Date">
+                      </div>
+                    </div>  
+                    <div class="col-xx-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                      <div class="input-group">
+                        <input type="time" class="form-control px-3" id="inlineFormInputGroupUsername" placeholder="time">
+                      </div>
+                    </div>
+                  </div>
+                </div>  
+                
+                <div class="container text-center">
+                  <a href="#">
+                    <button type="button" class="btn btn-dark mt-3">
+                      Make Appointment
+                      <i class="fa-solid fa-arrow-right ps-1 rightArrow"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- right -->
+          <div class="col-xx-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+            <!-- badge -->
+            <div class="badgesBox shadow py-4 px-3">
+              <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat Duis autem Duis autem vel eum iriure dolor in hendrerit.</p>
+              <p class="text-light pt-2">Peter Stanbridge - Manager</p>
+              
+              <div class="owl-carousel badges owl-theme pt-3">
+                <div class="item"><img src="assets/img/badge1.png" alt=""></div>
+                <div class="item"><img src="assets/img/badge2.png" alt=""></div>
+                <div class="item"><img src="assets/img/badge3.png" alt=""></div>
+                <div class="item"><img src="assets/img/badge2.png" alt=""></div>
+                <div class="item"><img src="assets/img/badge3.png" alt=""></div>
+            </div>
+            
+            </div>    
+            <!-- help box-->
+            <div class="helpBox bg-light mt-3 p-3 shadow">
+              <h3>Helping Patients From Around the Globe!!</h3>
+              <div class="col-10">
+                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat Duis autem</p>
+              </div>
+              <a href="#">
+                <button type="button" class="btn btn-dark mt-3">
+                  Make A Gift
+                  <i class="fa-solid fa-arrow-right ps-1 rightArrow"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  <!-- last sections end -->
 
 
   <!-- Bootstrap Bundle with Popper -->
@@ -1085,6 +1207,29 @@
     });
   </script>
   <!-- owlcarousel -->
+
+  <!-- badge -->
+
+  <script>
+    $('.badges').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsive: {
+          0: {
+            items: 2
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 6
+          }
+        }
+      })
+  </script>
+
+  <!-- badge end -->
+  
 
 </body>
 </html>
