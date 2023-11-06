@@ -26,6 +26,24 @@
   <!-- aos -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+  <!--scroll bar style-->
+  <style>
+    ::-webkit-scrollbar {
+      width: 1px;
+    }
+
+    ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 0px #0E204D;
+      border-radius: 0px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 0px;
+      background-color: #DCA44E;
+      -webkit-box-shadow: inset 0 0 1px #0E204D;
+    }
+  </style>
+
   <!-- page title -->
   <title>medicare</title>
   
@@ -252,6 +270,14 @@
       <div class="swiper-pagination"></div>
     </div>
   <!-- carousel end -->
+
+  <!-- scroll -->
+
+  <button type="button"  id="btn-back-to-top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- scroll -->
 
   <!-- importantBox -->
     <div class="container">
@@ -1415,6 +1441,36 @@
     });
   </script>
   
+  <!-- scroll top btn -->
+
+  <script>
+
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+  </script>
 
 </body>
 </html>
