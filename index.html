@@ -23,6 +23,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- page title -->
   <title>medicare</title>
   
@@ -353,7 +356,7 @@
         <!-- about right -->
         <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 aboutContent">
           <div class="heading">
-            <h3>Improving The Quality Of Your Life Through Better Health.</h3>
+            <h3 data-aos="fade-up">Improving The Quality Of Your Life Through Better Health.</h3>
           </div>
           <p class="p-2">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
@@ -387,7 +390,7 @@
       <div class="container">
         <div class="offset-xxl-2 col-xxl-8 offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 col-md-12 col-sm-12 col-12">
           <div class="heading">
-            <h3>Providing Medical Care For The Sickest In Our Community.</h3>
+            <h3 data-aos="fade-up">Providing Medical Care For The Sickest In Our Community.</h3>
             <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat vulputate velit esse molestie.</p>
           </div>
         </div>
@@ -512,7 +515,7 @@
           </div>
           <div class="col-xx-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 serviceRight">
             <div class="heading">
-              <h3>
+              <h3 data-aos="fade-up">
                 Providing Medical Services
               </h3>
             </div>
@@ -605,7 +608,7 @@
     <section class="doctorsSection">
       <div class="container mt-5">
         <div class="heading text-center">
-          <h3>Meet Our Doctors</h3>
+          <h3 data-aos="fade-up">Meet Our Doctors</h3>
           <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat</p>
         </div>
 
@@ -765,7 +768,7 @@
     <section class="articleSection pt-4 pb-4 mt-5" style="background-image: url(assets/img/lightBg.jpg);">
       <div class="container">
         <div class="heading text-center">
-          <h3>
+          <h3 data-aos="fade-up">
             Recent Articles
           </h3>
         </div>
@@ -866,7 +869,7 @@
     <section class="testimonial" style="background-image: url(assets/img/lightBg.jpg);">
       <div class="container py-5">
         <div class="heading text-center">
-          <h3>What our patients say</h3>
+          <h3 data-aos="fade-up">What our patients say</h3>
           <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit <br> esse molestie consequat, vel illum dolore</p>
         </div>
 
@@ -1036,7 +1039,7 @@
           <div class="col-xx-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
             <div class="appointment shadow">
               <div class="heading">
-                <h3>Book An Appointment</h3>
+                <h3 data-aos="fade-up">Book An Appointment</h3>
                 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequa.</p>
               </div>
 
@@ -1132,7 +1135,7 @@
             </div>    
             <!-- help box-->
             <div class="helpBox bg-light mt-3 p-3 shadow">
-              <h3>Helping Patients From Around the Globe!!</h3>
+              <h3 data-aos="fade-up">Helping Patients From Around the Globe!!</h3>
               <div class="col-10">
                 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat Duis autem</p>
               </div>
@@ -1402,6 +1405,15 @@
   </script>
 
   <!-- badge end -->
+
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-out-back',
+				duration: 1000
+    });
+  </script>
   
 
 </body>
