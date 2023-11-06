@@ -11586,7 +11586,6 @@ textarea.form-control-lg {
 }
 .aboutSection .aboutImg {
   height: 520px;
-  background-image: url(../../../assets/img/aboutImg1.png), url(../../../assets/img/aboutImg2.png);
   background-repeat: no-repeat, no-repeat;
   background-position: top left, right bottom;
   position: relative;
@@ -11612,7 +11611,6 @@ textarea.form-control-lg {
 }
 
 .clinicsSection {
-  background-image: url(../../../assets/img/fadeDarkBg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11653,7 +11651,6 @@ textarea.form-control-lg {
   background-size: cover;
 }
 .servicesSection .serviceLeft {
-  background-image: url(../../../assets/img/service/serviceImg.png);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
